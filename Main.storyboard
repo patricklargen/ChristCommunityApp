@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aRe-oA-v8G">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-Thin</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Choose Your Campus-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KM2-9W-3C8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvX-sg-cd6">
+                                        <rect key="frame" x="198" y="191" width="204" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Downtown">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="QUf-KB-1kO" kind="show" id="5Lv-hQ-TiC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLX-Nc-dKl">
+                                        <rect key="frame" x="198" y="266" width="177" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Leawood">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="XOn-9b-5Xi" kind="show" id="QvO-Sq-Zjg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVv-ti-b6P">
+                                        <rect key="frame" x="198" y="341" width="125" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Olathe">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="vSs-Gl-KAB" kind="show" id="GgK-eM-yND"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUM-KW-h1D">
+                                        <rect key="frame" x="198" y="116" width="192" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Brookside">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="n1n-pd-QXc" kind="show" id="ROx-i5-J4L"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gg5-Ec-2NR">
+                                        <rect key="frame" x="198" y="416" width="180" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Shawnee">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="QIj-4H-W4b" kind="show" id="iV1-CS-UaK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Gg5-Ec-2NR" firstAttribute="leading" secondItem="uVv-ti-b6P" secondAttribute="leading" id="1nt-JK-uH9"/>
+                                    <constraint firstItem="uVv-ti-b6P" firstAttribute="top" secondItem="wLX-Nc-dKl" secondAttribute="bottom" constant="8" symbolic="YES" id="2bw-tf-UZt"/>
+                                    <constraint firstItem="Gg5-Ec-2NR" firstAttribute="top" secondItem="uVv-ti-b6P" secondAttribute="bottom" constant="8" symbolic="YES" id="3MM-yP-AsQ"/>
+                                    <constraint firstItem="pvX-sg-cd6" firstAttribute="top" secondItem="kUM-KW-h1D" secondAttribute="bottom" constant="8" symbolic="YES" id="Ang-CR-3pZ"/>
+                                    <constraint firstItem="kUM-KW-h1D" firstAttribute="leading" secondItem="pvX-sg-cd6" secondAttribute="leading" id="Yat-Y6-sIt"/>
+                                    <constraint firstItem="wLX-Nc-dKl" firstAttribute="leading" secondItem="uVv-ti-b6P" secondAttribute="leading" id="hmK-V9-VSI"/>
+                                    <constraint firstItem="wLX-Nc-dKl" firstAttribute="centerY" secondItem="KM2-9W-3C8" secondAttribute="centerY" id="mjY-Hu-Iq2"/>
+                                    <constraint firstItem="pvX-sg-cd6" firstAttribute="leading" secondItem="wLX-Nc-dKl" secondAttribute="leading" id="sRs-0g-Wig"/>
+                                    <constraint firstItem="wLX-Nc-dKl" firstAttribute="top" secondItem="pvX-sg-cd6" secondAttribute="bottom" constant="8" symbolic="YES" id="vzr-Nf-Den"/>
+                                    <constraint firstItem="pvX-sg-cd6" firstAttribute="centerX" secondItem="KM2-9W-3C8" secondAttribute="centerX" id="zBb-js-XB8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KM2-9W-3C8" secondAttribute="trailing" id="2HN-oE-ZRu"/>
+                            <constraint firstItem="KM2-9W-3C8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="P7w-KW-hG7"/>
+                            <constraint firstItem="KM2-9W-3C8" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="bF7-sS-RT5"/>
+                            <constraint firstItem="KM2-9W-3C8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="lrB-hN-cXZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Choose Your Campus" id="TQf-c8-Wp0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3841" y="429"/>
+        </scene>
+        <!--Olathe Podcast View Controller-->
+        <scene sceneID="Hv1-ZR-4hq">
+            <objects>
+                <viewController id="vSs-Gl-KAB" customClass="OlathePodcastViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z6V-ub-uD4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ads-L0-jQX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TVj-BR-asE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8YG-Xd-KW6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8YG-Xd-KW6" secondAttribute="height" multiplier="1:1" id="kjo-Ia-mQ1"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="vSs-Gl-KAB" id="kw6-pq-hRU"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8YG-Xd-KW6" firstAttribute="centerX" secondItem="TVj-BR-asE" secondAttribute="centerX" id="GCa-D5-Ec1"/>
+                            <constraint firstItem="8YG-Xd-KW6" firstAttribute="bottom" secondItem="Ads-L0-jQX" secondAttribute="top" id="R0A-aS-h7h"/>
+                            <constraint firstItem="8YG-Xd-KW6" firstAttribute="leading" secondItem="TVj-BR-asE" secondAttribute="leading" id="hgf-D7-Szf"/>
+                            <constraint firstItem="8YG-Xd-KW6" firstAttribute="top" secondItem="TVj-BR-asE" secondAttribute="top" id="pIr-UB-RFK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="weview" destination="8YG-Xd-KW6" id="QHH-xb-1Gh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ib-ec-8YP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4735" y="1106"/>
+        </scene>
+        <!--Christ Community KC-->
+        <scene sceneID="wey-IT-OqF">
+            <objects>
+                <viewController title="Christ Community KC" id="28R-wN-khd" customClass="IconMenuViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yma-wS-Jkp"/>
+                        <viewControllerLayoutGuide type="bottom" id="rMp-mo-2fj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UuS-AM-Rwm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEr-Ur-GMe">
+                                <rect key="frame" x="304" y="248" width="268" height="168"/>
+                                <animations/>
+                                <state key="normal" title="SermonButton" image="headphones"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="8IN-AP-Kax"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpd-qD-Unl">
+                                <rect key="frame" x="28" y="72" width="268" height="168"/>
+                                <animations/>
+                                <state key="normal" title="DirectoryButton" image="address"/>
+                                <connections>
+                                    <segue destination="M8t-iZ-qcs" kind="show" id="cGA-n5-Utc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0E-sN-7rg">
+                                <rect key="frame" x="28" y="248" width="268" height="168"/>
+                                <animations/>
+                                <state key="normal" title="GivingButton" image="give"/>
+                                <connections>
+                                    <segue destination="xv6-ck-MPf" kind="show" id="koo-5e-ZsC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrl-xG-SCy">
+                                <rect key="frame" x="304" y="424" width="268" height="168"/>
+                                <animations/>
+                                <state key="normal" title="InfoButton" image="info"/>
+                                <connections>
+                                    <segue destination="aNM-ll-KuM" kind="show" id="H5m-nP-qX5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yF7-y9-IgV">
+                                <rect key="frame" x="28" y="424" width="268" height="168"/>
+                                <animations/>
+                                <state key="normal" image="openherebible-logo-small-150"/>
+                                <connections>
+                                    <segue destination="UTP-iy-H9b" kind="show" id="jfW-cg-z1j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hez-1x-Fge">
+                                <rect key="frame" x="304" y="72" width="268" height="168"/>
+                                <animations/>
+                                <state key="normal" title="CalendarButton" image="calendar"/>
+                                <connections>
+                                    <segue destination="TcM-7h-EWC" kind="show" id="Dkt-BS-8Ul"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c0E-sN-7rg" firstAttribute="height" secondItem="Dpd-qD-Unl" secondAttribute="height" id="2jQ-er-Mge"/>
+                            <constraint firstItem="yF7-y9-IgV" firstAttribute="height" secondItem="Dpd-qD-Unl" secondAttribute="height" id="2t0-bD-Yrw"/>
+                            <constraint firstItem="yF7-y9-IgV" firstAttribute="width" secondItem="Dpd-qD-Unl" secondAttribute="width" id="2tA-C5-nfN"/>
+                            <constraint firstItem="yrl-xG-SCy" firstAttribute="width" secondItem="Dpd-qD-Unl" secondAttribute="width" id="3Q1-vt-Esr"/>
+                            <constraint firstItem="yrl-xG-SCy" firstAttribute="height" secondItem="Dpd-qD-Unl" secondAttribute="height" id="Fzz-Wq-2Qv"/>
+                            <constraint firstItem="uEr-Ur-GMe" firstAttribute="width" secondItem="Dpd-qD-Unl" secondAttribute="width" id="Ixn-0c-HYY"/>
+                            <constraint firstItem="c0E-sN-7rg" firstAttribute="width" secondItem="Dpd-qD-Unl" secondAttribute="width" id="Jhd-Iq-M7M"/>
+                            <constraint firstItem="uEr-Ur-GMe" firstAttribute="leading" secondItem="c0E-sN-7rg" secondAttribute="trailing" constant="8" id="KBj-aF-lbS"/>
+                            <constraint firstItem="yrl-xG-SCy" firstAttribute="leading" secondItem="yF7-y9-IgV" secondAttribute="trailing" constant="8" id="NWf-Uy-AcU"/>
+                            <constraint firstItem="Hez-1x-Fge" firstAttribute="width" secondItem="Dpd-qD-Unl" secondAttribute="width" id="OuS-pd-549"/>
+                            <constraint firstItem="uEr-Ur-GMe" firstAttribute="top" secondItem="Hez-1x-Fge" secondAttribute="bottom" constant="8" id="Pid-HC-aMm"/>
+                            <constraint firstItem="c0E-sN-7rg" firstAttribute="leading" secondItem="UuS-AM-Rwm" secondAttribute="leadingMargin" constant="8" id="QZc-ZB-5pz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hez-1x-Fge" secondAttribute="trailing" constant="8" id="UbD-OK-WaP"/>
+                            <constraint firstItem="uEr-Ur-GMe" firstAttribute="height" secondItem="Dpd-qD-Unl" secondAttribute="height" id="Vxm-3L-Q38"/>
+                            <constraint firstItem="Hez-1x-Fge" firstAttribute="leading" secondItem="Dpd-qD-Unl" secondAttribute="trailing" constant="8" id="X3g-2s-VYx"/>
+                            <constraint firstItem="yF7-y9-IgV" firstAttribute="leading" secondItem="UuS-AM-Rwm" secondAttribute="leadingMargin" constant="8" id="YWS-3q-YaZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yrl-xG-SCy" secondAttribute="trailing" constant="8" id="YoL-dl-q7V"/>
+                            <constraint firstItem="rMp-mo-2fj" firstAttribute="top" secondItem="yF7-y9-IgV" secondAttribute="bottom" constant="8" id="ccO-FJ-Cxs"/>
+                            <constraint firstItem="c0E-sN-7rg" firstAttribute="top" secondItem="Dpd-qD-Unl" secondAttribute="bottom" constant="8" id="f7N-9Q-4Cz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uEr-Ur-GMe" secondAttribute="trailing" constant="8" id="gJ6-tV-XgR"/>
+                            <constraint firstItem="Hez-1x-Fge" firstAttribute="height" secondItem="Dpd-qD-Unl" secondAttribute="height" id="hts-wz-Wap"/>
+                            <constraint firstItem="Dpd-qD-Unl" firstAttribute="top" secondItem="Yma-wS-Jkp" secondAttribute="bottom" constant="8" id="jxH-Vp-0cL"/>
+                            <constraint firstItem="Dpd-qD-Unl" firstAttribute="leading" secondItem="UuS-AM-Rwm" secondAttribute="leadingMargin" constant="8" id="psf-oX-R9f"/>
+                            <constraint firstItem="yF7-y9-IgV" firstAttribute="top" secondItem="c0E-sN-7rg" secondAttribute="bottom" constant="8" id="r1y-Zs-7cg"/>
+                            <constraint firstItem="rMp-mo-2fj" firstAttribute="top" secondItem="yrl-xG-SCy" secondAttribute="bottom" constant="8" id="t9g-wd-Cq8"/>
+                            <constraint firstItem="Hez-1x-Fge" firstAttribute="top" secondItem="Yma-wS-Jkp" secondAttribute="bottom" constant="8" id="wdz-kB-Ign"/>
+                            <constraint firstItem="yrl-xG-SCy" firstAttribute="top" secondItem="uEr-Ur-GMe" secondAttribute="bottom" constant="8" id="xSu-gC-F5u"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Christ Community KC" id="Efc-ta-Wku"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNh-HN-ukN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationItem id="GC4-bf-hGk"/>
+            </objects>
+            <point key="canvasLocation" x="2923" y="561"/>
+        </scene>
+        <!--Shawnee Podcast View Controller-->
+        <scene sceneID="ZdM-Dw-pdd">
+            <objects>
+                <viewController id="QIj-4H-W4b" customClass="ShawneePodcastViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z5w-Se-ULa"/>
+                        <viewControllerLayoutGuide type="bottom" id="fJO-MI-XAs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wiu-LZ-Bfa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t7j-Lb-3sr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="t7j-Lb-3sr" secondAttribute="height" multiplier="1:1" id="evR-LN-ZW6"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="QIj-4H-W4b" id="bPU-xZ-ZP6"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t7j-Lb-3sr" firstAttribute="centerX" secondItem="Wiu-LZ-Bfa" secondAttribute="centerX" id="5ec-9X-Xuu"/>
+                            <constraint firstItem="t7j-Lb-3sr" firstAttribute="leading" secondItem="Wiu-LZ-Bfa" secondAttribute="leading" id="Sl4-Ow-UHi"/>
+                            <constraint firstItem="t7j-Lb-3sr" firstAttribute="top" secondItem="Wiu-LZ-Bfa" secondAttribute="top" id="aiV-th-vUm"/>
+                            <constraint firstItem="t7j-Lb-3sr" firstAttribute="bottom" secondItem="fJO-MI-XAs" secondAttribute="top" id="pX3-MQ-ehW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="weview" destination="t7j-Lb-3sr" id="VTv-Nm-KBL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Y5-cz-oXc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3653" y="1216"/>
+        </scene>
+        <!--Leawood Podcast View Controller-->
+        <scene sceneID="wqR-56-AyE">
+            <objects>
+                <viewController id="XOn-9b-5Xi" customClass="LeawoodPodcastViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vaJ-Ew-lbW"/>
+                        <viewControllerLayoutGuide type="bottom" id="KJ7-wU-Tml"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FcE-qq-UHz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O0R-6V-yH8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="O0R-6V-yH8" secondAttribute="height" multiplier="1:1" id="OAw-Oe-FMp"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="XOn-9b-5Xi" id="GOO-yg-G2r"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O0R-6V-yH8" firstAttribute="centerX" secondItem="FcE-qq-UHz" secondAttribute="centerX" id="5No-Mi-Mvx"/>
+                            <constraint firstItem="O0R-6V-yH8" firstAttribute="bottom" secondItem="KJ7-wU-Tml" secondAttribute="top" id="AJw-1x-co5"/>
+                            <constraint firstItem="O0R-6V-yH8" firstAttribute="leading" secondItem="FcE-qq-UHz" secondAttribute="leading" id="K92-tk-YeH"/>
+                            <constraint firstItem="O0R-6V-yH8" firstAttribute="top" secondItem="FcE-qq-UHz" secondAttribute="top" id="yUD-w9-RcP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="weview" destination="O0R-6V-yH8" id="Dfv-j6-xnF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQz-Rh-0qu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4735" y="449"/>
+        </scene>
+        <!--Directory View Controller-->
+        <scene sceneID="QUo-GK-dfy">
+            <objects>
+                <viewController id="M8t-iZ-qcs" customClass="DirectoryViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CAD-Vh-6zE"/>
+                        <viewControllerLayoutGuide type="bottom" id="qTV-EZ-fet"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5mB-Ao-peS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8S-jb-Pe3">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="M8t-iZ-qcs" id="0F9-Ab-Wao"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ANV-N4-HRg">
+                                <rect key="frame" x="281" y="281" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v8S-jb-Pe3" firstAttribute="centerY" secondItem="5mB-Ao-peS" secondAttribute="centerY" id="48B-a2-l1W"/>
+                            <constraint firstItem="v8S-jb-Pe3" firstAttribute="centerX" secondItem="5mB-Ao-peS" secondAttribute="centerX" id="HDz-4m-go4"/>
+                            <constraint firstItem="ANV-N4-HRg" firstAttribute="centerY" secondItem="v8S-jb-Pe3" secondAttribute="centerY" constant="-0.5" id="Rb3-Kp-gW0"/>
+                            <constraint firstItem="ANV-N4-HRg" firstAttribute="centerX" secondItem="v8S-jb-Pe3" secondAttribute="centerX" id="VYk-DI-gqB"/>
+                            <constraint firstItem="v8S-jb-Pe3" firstAttribute="leading" secondItem="5mB-Ao-peS" secondAttribute="leading" id="gcw-8B-aLw"/>
+                            <constraint firstItem="v8S-jb-Pe3" firstAttribute="bottom" secondItem="qTV-EZ-fet" secondAttribute="top" id="ghe-a9-ZRu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WZc-76-Tv4"/>
+                    <connections>
+                        <outlet property="Activity" destination="ANV-N4-HRg" id="Dr7-MA-MlO"/>
+                        <outlet property="LeawoodDirectory" destination="v8S-jb-Pe3" id="Cwi-OA-DiM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0On-rB-HkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1751" y="-623"/>
+        </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="gtN-Ic-BkG">
+            <objects>
+                <viewController id="TcM-7h-EWC" customClass="CalendarViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EOY-sm-5tQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ykP-Lr-2f5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uLg-86-nAb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLr-P6-j7i">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="TcM-7h-EWC" id="z7a-Oc-3Ya"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Oj4-Ap-989">
+                                <rect key="frame" x="281" y="281" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VLr-P6-j7i" secondAttribute="trailing" id="8uL-UZ-vgb"/>
+                            <constraint firstItem="VLr-P6-j7i" firstAttribute="top" secondItem="uLg-86-nAb" secondAttribute="top" id="Gql-FS-HvD"/>
+                            <constraint firstItem="VLr-P6-j7i" firstAttribute="bottom" secondItem="ykP-Lr-2f5" secondAttribute="top" id="OMJ-ji-Jvu"/>
+                            <constraint firstItem="Oj4-Ap-989" firstAttribute="centerX" secondItem="VLr-P6-j7i" secondAttribute="centerX" id="b4R-gS-ydC"/>
+                            <constraint firstItem="Oj4-Ap-989" firstAttribute="centerY" secondItem="VLr-P6-j7i" secondAttribute="centerY" id="ssv-ve-v9J"/>
+                            <constraint firstItem="VLr-P6-j7i" firstAttribute="leading" secondItem="uLg-86-nAb" secondAttribute="leading" id="uh4-jM-pQc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Activity" destination="Oj4-Ap-989" id="mTO-tV-t6f"/>
+                        <outlet property="LeawoodCalendarWebView" destination="VLr-P6-j7i" id="9Ia-Jr-99W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rkh-tu-MN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3841" y="-231"/>
+        </scene>
+        <!--Giving View Controller-->
+        <scene sceneID="KIf-as-dIv">
+            <objects>
+                <viewController id="xv6-ck-MPf" customClass="GivingViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2th-VS-UhT"/>
+                        <viewControllerLayoutGuide type="bottom" id="cRw-Tz-WqZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N2e-Ff-LFi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uhi-YC-vZG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="xv6-ck-MPf" id="LZq-df-fAe"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="OJw-Pa-IKc">
+                                <rect key="frame" x="281" y="281" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OJw-Pa-IKc" firstAttribute="centerY" secondItem="Uhi-YC-vZG" secondAttribute="centerY" id="55H-vA-Lfp"/>
+                            <constraint firstItem="Uhi-YC-vZG" firstAttribute="leading" secondItem="N2e-Ff-LFi" secondAttribute="leading" id="Co9-Ee-ZKE"/>
+                            <constraint firstItem="Uhi-YC-vZG" firstAttribute="bottom" secondItem="cRw-Tz-WqZ" secondAttribute="top" id="Qz7-fd-Mml"/>
+                            <constraint firstItem="Uhi-YC-vZG" firstAttribute="leading" secondItem="N2e-Ff-LFi" secondAttribute="leadingMargin" constant="-20" id="YFP-ld-coP"/>
+                            <constraint firstItem="Uhi-YC-vZG" firstAttribute="centerY" secondItem="N2e-Ff-LFi" secondAttribute="centerY" id="ZbZ-iz-qLP"/>
+                            <constraint firstItem="Uhi-YC-vZG" firstAttribute="centerX" secondItem="N2e-Ff-LFi" secondAttribute="centerX" id="b1R-JU-EmG"/>
+                            <constraint firstItem="OJw-Pa-IKc" firstAttribute="centerX" secondItem="Uhi-YC-vZG" secondAttribute="centerX" id="dH1-qQ-vT7"/>
+                            <constraint firstItem="Uhi-YC-vZG" firstAttribute="centerX" secondItem="N2e-Ff-LFi" secondAttribute="centerX" id="eof-yx-UEu"/>
+                            <constraint firstItem="Uhi-YC-vZG" firstAttribute="centerY" secondItem="N2e-Ff-LFi" secondAttribute="centerY" id="ir9-2D-ifd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uhi-YC-vZG" secondAttribute="trailing" constant="-20" id="pny-l6-dbX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Activity" destination="OJw-Pa-IKc" id="Qtf-kf-a2M"/>
+                        <outlet property="givingWebView" destination="Uhi-YC-vZG" id="ZQe-eW-GCV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S25-x9-KZu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1895" y="1351"/>
+        </scene>
+        <!--Downtown Podcast View Controller-->
+        <scene sceneID="w2Q-5o-tpY">
+            <objects>
+                <viewController id="QUf-KB-1kO" customClass="DowntownPodcastViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pnd-oJ-OLO"/>
+                        <viewControllerLayoutGuide type="bottom" id="1EV-2K-TU1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vpM-NX-a0T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tQT-PL-IbV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tQT-PL-IbV" secondAttribute="height" multiplier="1:1" id="sUB-S3-4If"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="QUf-KB-1kO" id="2nq-dg-Xoa"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tQT-PL-IbV" firstAttribute="leading" secondItem="vpM-NX-a0T" secondAttribute="leading" id="GA0-C6-zXF"/>
+                            <constraint firstItem="tQT-PL-IbV" firstAttribute="centerX" secondItem="vpM-NX-a0T" secondAttribute="centerX" id="dpv-qZ-CkQ"/>
+                            <constraint firstItem="tQT-PL-IbV" firstAttribute="bottom" secondItem="1EV-2K-TU1" secondAttribute="top" id="i2A-lO-POo"/>
+                            <constraint firstItem="tQT-PL-IbV" firstAttribute="top" secondItem="vpM-NX-a0T" secondAttribute="top" id="qI1-sn-Ql5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="tQT-PL-IbV" id="liH-yM-ZPT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LH7-OY-bC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4735" y="-231"/>
+        </scene>
+        <!--Brookside Podcast View Controller-->
+        <scene sceneID="LOK-ng-qsN">
+            <objects>
+                <viewController id="n1n-pd-QXc" customClass="BrooksidePodcastViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="crI-Ul-nWw"/>
+                        <viewControllerLayoutGuide type="bottom" id="DfF-xH-fbl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="len-0x-cht">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dfy-ie-giT">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Dfy-ie-giT" secondAttribute="height" multiplier="1:1" id="NH8-L6-nhI"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="n1n-pd-QXc" id="3dQ-94-ldp"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dfy-ie-giT" firstAttribute="centerX" secondItem="len-0x-cht" secondAttribute="centerX" id="0YX-aT-gWi"/>
+                            <constraint firstItem="Dfy-ie-giT" firstAttribute="top" secondItem="len-0x-cht" secondAttribute="top" id="6md-l9-jBa"/>
+                            <constraint firstItem="Dfy-ie-giT" firstAttribute="bottom" secondItem="DfF-xH-fbl" secondAttribute="top" id="rid-j9-IMf"/>
+                            <constraint firstItem="Dfy-ie-giT" firstAttribute="leading" secondItem="len-0x-cht" secondAttribute="leading" id="u6T-kx-la7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="weview" destination="Dfy-ie-giT" id="Y8k-mh-T6j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tU3-1Q-JQE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4735" y="-899"/>
+        </scene>
+        <!--Choose Your Campus-->
+        <scene sceneID="z7E-er-3H1">
+            <objects>
+                <viewController id="aNM-ll-KuM" customClass="ViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tgk-eh-ISi"/>
+                        <viewControllerLayoutGuide type="bottom" id="BzZ-Wm-LT0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PEU-PL-Nyd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ng-4z-gyB">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDb-z5-72e">
+                                        <rect key="frame" x="198.5" y="191.5" width="204" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Downtown">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="mTd-hB-55e" kind="show" id="FrU-Vp-iv4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y53-D7-Eqh">
+                                        <rect key="frame" x="198.5" y="266.5" width="177" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Leawood">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="YzN-bB-hxy" kind="show" id="que-Lj-XCD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsP-5d-fz4">
+                                        <rect key="frame" x="198.5" y="341.5" width="125" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Olathe">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Ql2-g7-swv" kind="show" id="nb3-Ne-oim"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUP-Cg-uYC">
+                                        <rect key="frame" x="198.5" y="116.5" width="192" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Brookside">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="1Fa-hA-b66" kind="show" id="rix-ZQ-MmU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6z-cc-laI">
+                                        <rect key="frame" x="198.5" y="416.5" width="180" height="67"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="46"/>
+                                        <state key="normal" title="Shawnee">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="3F9-ES-2dO" kind="show" id="X8E-a7-zgH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="TDb-z5-72e" firstAttribute="leading" secondItem="Y53-D7-Eqh" secondAttribute="leading" id="13e-su-pnR"/>
+                                    <constraint firstItem="Y53-D7-Eqh" firstAttribute="leading" secondItem="nsP-5d-fz4" secondAttribute="leading" id="1TB-em-6Lx"/>
+                                    <constraint firstItem="WUP-Cg-uYC" firstAttribute="leading" secondItem="TDb-z5-72e" secondAttribute="leading" id="6BJ-Xq-Idu"/>
+                                    <constraint firstItem="TDb-z5-72e" firstAttribute="centerX" secondItem="1ng-4z-gyB" secondAttribute="centerX" id="VcW-7N-vqf"/>
+                                    <constraint firstItem="nsP-5d-fz4" firstAttribute="top" secondItem="Y53-D7-Eqh" secondAttribute="bottom" constant="8" symbolic="YES" id="VxF-oc-XOw"/>
+                                    <constraint firstItem="TDb-z5-72e" firstAttribute="top" secondItem="WUP-Cg-uYC" secondAttribute="bottom" constant="8" symbolic="YES" id="WvK-yD-dUW"/>
+                                    <constraint firstItem="Y53-D7-Eqh" firstAttribute="top" secondItem="TDb-z5-72e" secondAttribute="bottom" constant="8" symbolic="YES" id="Zff-hj-M6b"/>
+                                    <constraint firstItem="Y53-D7-Eqh" firstAttribute="centerY" secondItem="1ng-4z-gyB" secondAttribute="centerY" id="Zo1-za-Jib"/>
+                                    <constraint firstItem="s6z-cc-laI" firstAttribute="top" secondItem="nsP-5d-fz4" secondAttribute="bottom" constant="8" symbolic="YES" id="efB-68-0zN"/>
+                                    <constraint firstItem="s6z-cc-laI" firstAttribute="leading" secondItem="nsP-5d-fz4" secondAttribute="leading" id="ozR-f9-Lkk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1ng-4z-gyB" firstAttribute="bottom" secondItem="BzZ-Wm-LT0" secondAttribute="top" id="Cnc-t1-NxC"/>
+                            <constraint firstItem="1ng-4z-gyB" firstAttribute="top" secondItem="PEU-PL-Nyd" secondAttribute="top" id="P0Q-Ae-yLH"/>
+                            <constraint firstAttribute="trailing" secondItem="1ng-4z-gyB" secondAttribute="trailing" id="PDK-Rc-ClU"/>
+                            <constraint firstItem="1ng-4z-gyB" firstAttribute="leading" secondItem="PEU-PL-Nyd" secondAttribute="leading" id="XEN-AP-cpq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Choose Your Campus" id="a9d-d6-27R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kEP-ul-IYw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2963" y="-270"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d7T-19-k0D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aRe-oA-v8G" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KOb-6g-wym">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="28R-wN-khd" kind="relationship" relationship="rootViewController" id="9pT-KO-4Jg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D6g-Tm-TWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2151" y="429"/>
+        </scene>
+        <!--Shawnee Info View Controller-->
+        <scene sceneID="TQH-hJ-LTl">
+            <objects>
+                <viewController id="3F9-ES-2dO" customClass="ShawneeInfoViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="88q-51-65a"/>
+                        <viewControllerLayoutGuide type="bottom" id="LoT-Am-P0Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="25z-FY-aVD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCS-qO-cY1">
+                                <rect key="frame" x="0.0" y="58" width="600" height="542"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="3F9-ES-2dO" id="N5n-Jv-2Wx"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="539-hT-9FS">
+                                <rect key="frame" x="281" y="281" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="539-hT-9FS" firstAttribute="centerX" secondItem="jCS-qO-cY1" secondAttribute="centerX" id="131-qL-wFh"/>
+                            <constraint firstItem="jCS-qO-cY1" firstAttribute="bottom" secondItem="LoT-Am-P0Z" secondAttribute="top" id="Ajs-X3-NS6"/>
+                            <constraint firstItem="jCS-qO-cY1" firstAttribute="leading" secondItem="25z-FY-aVD" secondAttribute="leading" id="Ucz-vC-V6O"/>
+                            <constraint firstAttribute="trailing" secondItem="jCS-qO-cY1" secondAttribute="trailing" id="gvB-4Y-b9U"/>
+                            <constraint firstItem="539-hT-9FS" firstAttribute="centerY" secondItem="25z-FY-aVD" secondAttribute="centerY" id="n7j-YQ-vFK"/>
+                            <constraint firstItem="jCS-qO-cY1" firstAttribute="top" secondItem="25z-FY-aVD" secondAttribute="topMargin" constant="58" id="pxT-jc-wtu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="EtL-S0-DZd"/>
+                    <connections>
+                        <outlet property="Activity" destination="539-hT-9FS" id="Pne-21-O6t"/>
+                        <outlet property="ShawneeInfoWebView" destination="jCS-qO-cY1" id="Dgf-nQ-pBg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cNM-DX-pYT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2392" y="-623"/>
+        </scene>
+        <!--Olathe Info View Controller-->
+        <scene sceneID="sH9-HK-t9Y">
+            <objects>
+                <viewController id="Ql2-g7-swv" customClass="OlatheInfoViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SLe-pO-L6n"/>
+                        <viewControllerLayoutGuide type="bottom" id="YqY-Tz-SVI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pHX-u9-Gpb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RLn-ng-ved">
+                                <rect key="frame" x="0.0" y="58" width="600" height="542"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ql2-g7-swv" id="sID-zd-FfW"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="wJw-Di-meL">
+                                <rect key="frame" x="281" y="281" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wJw-Di-meL" firstAttribute="centerY" secondItem="pHX-u9-Gpb" secondAttribute="centerY" id="NKR-r3-1nf"/>
+                            <constraint firstItem="wJw-Di-meL" firstAttribute="centerX" secondItem="RLn-ng-ved" secondAttribute="centerX" id="TeS-4j-rTv"/>
+                            <constraint firstItem="RLn-ng-ved" firstAttribute="bottom" secondItem="YqY-Tz-SVI" secondAttribute="top" id="WTR-ps-Lon"/>
+                            <constraint firstItem="RLn-ng-ved" firstAttribute="leading" secondItem="pHX-u9-Gpb" secondAttribute="leading" id="YZO-fL-Biu"/>
+                            <constraint firstItem="RLn-ng-ved" firstAttribute="centerX" secondItem="pHX-u9-Gpb" secondAttribute="centerX" id="abO-tk-moT"/>
+                            <constraint firstItem="RLn-ng-ved" firstAttribute="centerY" secondItem="pHX-u9-Gpb" secondAttribute="centerY" constant="29" id="scp-7Q-rnJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WAr-Yo-B79"/>
+                    <connections>
+                        <outlet property="Activity" destination="wJw-Di-meL" id="Rk5-aF-mdv"/>
+                        <outlet property="OlatheInfoWebView" destination="RLn-ng-ved" id="EWS-t2-tQE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0O1-qg-sBW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3013" y="-955"/>
+        </scene>
+        <!--Leawood Info View Controller-->
+        <scene sceneID="4Hd-01-Ub3">
+            <objects>
+                <viewController id="YzN-bB-hxy" customClass="LeawoodInfoViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NAu-Ih-7if"/>
+                        <viewControllerLayoutGuide type="bottom" id="rYY-ck-1cm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="scH-MX-QUn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0EL-rb-ZOx">
+                                <rect key="frame" x="0.0" y="58" width="600" height="542"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YzN-bB-hxy" id="dxA-Wf-hU0"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="NKD-fL-hQx">
+                                <rect key="frame" x="282" y="310" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0EL-rb-ZOx" firstAttribute="leading" secondItem="scH-MX-QUn" secondAttribute="leading" id="0ZO-X9-cr2"/>
+                            <constraint firstItem="0EL-rb-ZOx" firstAttribute="centerY" secondItem="scH-MX-QUn" secondAttribute="centerY" constant="29" id="MX4-jH-btP"/>
+                            <constraint firstItem="0EL-rb-ZOx" firstAttribute="bottom" secondItem="rYY-ck-1cm" secondAttribute="top" id="Mrn-f8-7PC"/>
+                            <constraint firstItem="0EL-rb-ZOx" firstAttribute="centerX" secondItem="scH-MX-QUn" secondAttribute="centerX" id="Yiz-ys-ElO"/>
+                            <constraint firstItem="NKD-fL-hQx" firstAttribute="centerX" secondItem="0EL-rb-ZOx" secondAttribute="centerX" id="ags-3T-9W9"/>
+                            <constraint firstItem="NKD-fL-hQx" firstAttribute="centerY" secondItem="0EL-rb-ZOx" secondAttribute="centerY" id="sXr-Re-vSS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YU0-et-dfJ"/>
+                    <connections>
+                        <outlet property="Activity" destination="NKD-fL-hQx" id="nLM-2r-7ph"/>
+                        <outlet property="LeawoodInfoWebView" destination="0EL-rb-ZOx" id="VIm-bL-La0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Se-yN-ocN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3639" y="-1064"/>
+        </scene>
+        <!--Brookside Info View Controller-->
+        <scene sceneID="YM3-jg-R1I">
+            <objects>
+                <viewController id="1Fa-hA-b66" customClass="BrooksideInfoViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jKb-jK-CX7"/>
+                        <viewControllerLayoutGuide type="bottom" id="I5a-eZ-dAo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HPX-1a-HAM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WK4-nB-2UX">
+                                <rect key="frame" x="0.0" y="58" width="600" height="542"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1Fa-hA-b66" id="YiK-y8-Xbf"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IUh-gO-tOF">
+                                <rect key="frame" x="282" y="310" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WK4-nB-2UX" firstAttribute="leading" secondItem="HPX-1a-HAM" secondAttribute="leading" id="E2L-ai-Nl3"/>
+                            <constraint firstItem="WK4-nB-2UX" firstAttribute="bottom" secondItem="I5a-eZ-dAo" secondAttribute="top" id="QO7-UO-fLe"/>
+                            <constraint firstItem="IUh-gO-tOF" firstAttribute="centerY" secondItem="WK4-nB-2UX" secondAttribute="centerY" id="RvA-6y-jT4"/>
+                            <constraint firstItem="IUh-gO-tOF" firstAttribute="centerX" secondItem="WK4-nB-2UX" secondAttribute="centerX" id="UN7-LP-DEw"/>
+                            <constraint firstItem="WK4-nB-2UX" firstAttribute="centerY" secondItem="HPX-1a-HAM" secondAttribute="centerY" constant="29" id="WrB-Bq-28r"/>
+                            <constraint firstItem="WK4-nB-2UX" firstAttribute="centerX" secondItem="HPX-1a-HAM" secondAttribute="centerX" id="akb-Eu-YWH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KNN-Th-oht"/>
+                    <connections>
+                        <outlet property="Activity" destination="IUh-gO-tOF" id="nd2-tC-6wb"/>
+                        <outlet property="BrooksideInfoWebView" destination="WK4-nB-2UX" id="LBt-Wa-Caj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9n-xv-Jrd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4260" y="-1124"/>
+        </scene>
+        <!--Downtown Info View Controller-->
+        <scene sceneID="rNL-PH-8cB">
+            <objects>
+                <viewController id="mTd-hB-55e" customClass="DowntownInfoViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3dg-nn-ZnJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="bBG-5U-4Su"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MGe-W6-d2w">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eu1-wy-X5l">
+                                <rect key="frame" x="0.0" y="58" width="600" height="542"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="mTd-hB-55e" id="4TO-NU-g2E"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Y7A-Uy-O6c">
+                                <rect key="frame" x="282" y="310" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eu1-wy-X5l" firstAttribute="centerX" secondItem="MGe-W6-d2w" secondAttribute="centerX" id="1nu-KM-CT3"/>
+                            <constraint firstItem="eu1-wy-X5l" firstAttribute="centerY" secondItem="MGe-W6-d2w" secondAttribute="centerY" constant="29" id="AX1-hB-PRF"/>
+                            <constraint firstItem="Y7A-Uy-O6c" firstAttribute="centerX" secondItem="eu1-wy-X5l" secondAttribute="centerX" id="Cyo-eg-vmO"/>
+                            <constraint firstItem="eu1-wy-X5l" firstAttribute="leading" secondItem="MGe-W6-d2w" secondAttribute="leading" id="MhC-Ie-HeW"/>
+                            <constraint firstItem="eu1-wy-X5l" firstAttribute="bottom" secondItem="bBG-5U-4Su" secondAttribute="top" id="dHE-lR-rIS"/>
+                            <constraint firstItem="Y7A-Uy-O6c" firstAttribute="centerY" secondItem="eu1-wy-X5l" secondAttribute="centerY" id="yEm-DH-f1N"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="chI-yR-me3"/>
+                    <connections>
+                        <outlet property="Activity" destination="Y7A-Uy-O6c" id="0JE-Me-Dsy"/>
+                        <outlet property="DowntownInfoWebView" destination="eu1-wy-X5l" id="NeJ-9s-BqY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yYC-MP-uVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4897" y="-1285"/>
+        </scene>
+        <!--Open Here View Controller-->
+        <scene sceneID="v2Z-hS-3o4">
+            <objects>
+                <viewController id="UTP-iy-H9b" customClass="OpenHereViewController" customModule="ChristCommunityApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gm4-KI-mPq"/>
+                        <viewControllerLayoutGuide type="bottom" id="73M-Dk-doS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u6H-gj-Eqa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0HQ-IS-yXI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0HQ-IS-yXI" secondAttribute="height" multiplier="1:1" id="wQj-6F-3lo"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="wQj-6F-3lo"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="UTP-iy-H9b" id="cJ7-G8-WKM"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="7Rw-pD-2HT">
+                                <rect key="frame" x="281" y="281" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="centerX" secondItem="u6H-gj-Eqa" secondAttribute="centerX" id="511-bd-gdQ"/>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="top" secondItem="u6H-gj-Eqa" secondAttribute="top" id="FcE-wo-xQl"/>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="leading" secondItem="u6H-gj-Eqa" secondAttribute="leading" id="Ldu-VJ-W8U"/>
+                            <constraint firstItem="7Rw-pD-2HT" firstAttribute="centerX" secondItem="0HQ-IS-yXI" secondAttribute="centerX" id="YAk-2Z-2zR"/>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="centerY" secondItem="u6H-gj-Eqa" secondAttribute="centerY" id="ZrN-iW-OnN"/>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="centerX" secondItem="u6H-gj-Eqa" secondAttribute="centerX" id="hvY-Z9-Za7"/>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="leading" secondItem="u6H-gj-Eqa" secondAttribute="leading" id="i14-hi-Hj8"/>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="centerX" secondItem="7Rw-pD-2HT" secondAttribute="centerX" id="iyW-ZB-FsK"/>
+                            <constraint firstItem="7Rw-pD-2HT" firstAttribute="centerY" secondItem="0HQ-IS-yXI" secondAttribute="centerY" constant="-0.5" id="kx8-1K-sOs"/>
+                            <constraint firstItem="0HQ-IS-yXI" firstAttribute="bottom" secondItem="73M-Dk-doS" secondAttribute="top" id="lMz-Ci-G2B"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FcE-wo-xQl"/>
+                                <exclude reference="Ldu-VJ-W8U"/>
+                                <exclude reference="hvY-Z9-Za7"/>
+                                <exclude reference="YAk-2Z-2zR"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="OpenHereWebView" destination="0HQ-IS-yXI" id="mtp-O0-oy4"/>
+                        <outlet property="ProgressIndicator" destination="7Rw-pD-2HT" id="m8E-wx-Cfm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzn-5C-iPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2587" y="1351"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="address" width="512" height="512"/>
+        <image name="calendar" width="512" height="512"/>
+        <image name="give" width="512" height="512"/>
+        <image name="headphones" width="512" height="512"/>
+        <image name="info" width="512" height="512"/>
+        <image name="openherebible-logo-small-150" width="150" height="121"/>
+    </resources>
+    <color key="tintColor" red="0.39607843139999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+</document>
