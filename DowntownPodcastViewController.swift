@@ -11,10 +11,5 @@ class DowntownPodcastViewController: UIViewController {
         
         let request = NSURLRequest(URL: url!)
         webView.loadRequest(request)
-        
-
-        // Do any additional setup after loading the view.
     }
-
-
 }

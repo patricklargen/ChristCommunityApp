@@ -8,40 +8,30 @@
 
 import UIKit
 
-//import SafariServices
-
 class ShawneeInfoViewController: UIViewController {
 
 
-    @IBOutlet weak var Activity: UIActivityIndicatorView!
-    @IBOutlet weak var ShawneeInfoWebView: UIWebView!
+    @IBOutlet weak var activity: UIActivityIndicatorView!
+    @IBOutlet weak var shawneeInfoWebView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let URL = NSURL(string: "http://christcommunitykc.info/shawnee/")
         
-        ShawneeInfoWebView.loadRequest(NSURLRequest(URL: URL!))
-        
-        
-
-        // Do any additional setup after loading the view.
+        shawneeInfoWebView.loadRequest(NSURLRequest(URL: URL!))
     }
+    
     func webViewDidStartLoad(_ : UIWebView) {
-        Activity.startAnimating()
+        activity.startAnimating()
         
         NSLog("The Shawnee Info WebView is starting to load")
     }
     
     func webViewDidFinishLoad(_ : UIWebView) {
-        Activity.stopAnimating()
+        activity.stopAnimating()
         
         NSLog("The Shawnee Info WebView is done loading")
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-//         Dispose of any resources that can be recreated.
-    }
-    
 
 }

@@ -8,33 +8,27 @@
 
 import UIKit
 
-
 class DowntownInfoViewController: UIViewController {
-    @IBOutlet weak var Activity: UIActivityIndicatorView!
-    @IBOutlet weak var DowntownInfoWebView: UIWebView!
-
+    
+    @IBOutlet weak var activity: UIActivityIndicatorView!
+    @IBOutlet weak var downtownInfoWebView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let URL = NSURL(string: "http://christcommunitykc.info/downtown/")
         
-        DowntownInfoWebView.loadRequest(NSURLRequest(URL: URL!))
-        
-        // Do any additional setup after loading the view.
+        downtownInfoWebView.loadRequest(NSURLRequest(URL: URL!))
     }
+    
     func webViewDidStartLoad(_ : UIWebView) {
-        Activity.startAnimating()
+        activity.startAnimating()
         
         NSLog("The Downtown Info WebView is starting to load")
     }
     
     func webViewDidFinishLoad(_ : UIWebView) {
-        Activity.stopAnimating()
+        activity.stopAnimating()
         
         NSLog("The Downtown Info WebView is done loading")
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 }

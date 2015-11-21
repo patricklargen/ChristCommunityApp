@@ -1,13 +1,10 @@
 
 import UIKit
 
-import WebKit
-
 class OpenHereViewController: UIViewController {
     
-    @IBOutlet weak var OpenHereWebView: UIWebView!
-    
-    @IBOutlet weak var ProgressIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var openHereWebView: UIWebView!
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     
 
     override func viewDidLoad() {
@@ -15,17 +12,17 @@ class OpenHereViewController: UIViewController {
         
         let URL = NSURL(string: "http://openherebible.com")
         
-        OpenHereWebView.loadRequest(NSURLRequest(URL: URL!))
+        openHereWebView.loadRequest(NSURLRequest(URL: URL!))
     }
     
     func webViewDidStartLoad(_ : UIWebView) {
-        ProgressIndicator.startAnimating()
+        activity.startAnimating()
         
         NSLog("The WebView is starting to load")
     }
     
     func webViewDidFinishLoad(_ : UIWebView) {
-        ProgressIndicator.stopAnimating()
+        activity.stopAnimating()
         
         NSLog("The WebView is done loading")
     }

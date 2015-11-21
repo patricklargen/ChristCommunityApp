@@ -8,45 +8,29 @@
 
 import UIKit
 
-
 class LeawoodInfoViewController: UIViewController {
-    @IBOutlet weak var Activity: UIActivityIndicatorView!
-
-    @IBOutlet weak var LeawoodInfoWebView: UIWebView!
-
-   
+    
+    @IBOutlet weak var activity: UIActivityIndicatorView!
+    
+    @IBOutlet weak var leawoodInfoWebView: UIWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let URL = NSURL(string: "http://christcommunitykc.info/leawood/")
         
-        LeawoodInfoWebView.loadRequest(NSURLRequest(URL: URL!))
-        // Do any additional setup after loading the view.
+        leawoodInfoWebView.loadRequest(NSURLRequest(URL: URL!))
     }
+    
     func webViewDidStartLoad(_ : UIWebView) {
-        Activity.startAnimating()
+        activity.startAnimating()
         
         NSLog("The Leawood Info WebView is starting to load")
     }
     
     func webViewDidFinishLoad(_ : UIWebView) {
-        Activity.stopAnimating()
+        activity.stopAnimating()
         
         NSLog("The Leawood Info WebView is done loading")
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
