@@ -156,6 +156,9 @@
                             <constraint firstItem="8YG-Xd-KW6" firstAttribute="top" secondItem="TVj-BR-asE" secondAttribute="top" id="pIr-UB-RFK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="8YG-Xd-KW6" id="txq-JE-HHv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ib-ec-8YP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,6 +196,9 @@
                                 <rect key="frame" x="28" y="248" width="268" height="168"/>
                                 <animations/>
                                 <state key="normal" title="GivingButton" image="give"/>
+                                <connections>
+                                    <action selector="givingButtonPressed:" destination="28R-wN-khd" eventType="touchUpInside" id="Ti6-0t-9Et"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrl-xG-SCy">
                                 <rect key="frame" x="304" y="424" width="268" height="168"/>
@@ -291,6 +297,9 @@
                             <constraint firstItem="t7j-Lb-3sr" firstAttribute="bottom" secondItem="fJO-MI-XAs" secondAttribute="top" id="pX3-MQ-ehW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="weview" destination="t7j-Lb-3sr" id="LVD-Rw-LVu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Y5-cz-oXc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -329,6 +338,9 @@
                             <constraint firstItem="O0R-6V-yH8" firstAttribute="top" secondItem="FcE-qq-UHz" secondAttribute="top" id="yUD-w9-RcP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="O0R-6V-yH8" id="Smj-Sm-bLW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EQz-Rh-0qu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -372,6 +384,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WZc-76-Tv4"/>
+                    <connections>
+                        <outlet property="activity" destination="ANV-N4-HRg" id="Pk2-dy-aBB"/>
+                        <outlet property="directory" destination="v8S-jb-Pe3" id="9UL-dI-Pfr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0On-rB-HkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -414,6 +430,10 @@
                             <constraint firstItem="VLr-P6-j7i" firstAttribute="leading" secondItem="uLg-86-nAb" secondAttribute="leading" id="uh4-jM-pQc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activity" destination="Oj4-Ap-989" id="gKP-xK-6VH"/>
+                        <outlet property="leawoodCalendarWebView" destination="VLr-P6-j7i" id="9kU-3V-W2o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rkh-tu-MN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -452,6 +472,9 @@
                             <constraint firstItem="tQT-PL-IbV" firstAttribute="top" secondItem="vpM-NX-a0T" secondAttribute="top" id="qI1-sn-Ql5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="tQT-PL-IbV" id="EJi-Ix-WeL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LH7-OY-bC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -490,6 +513,9 @@
                             <constraint firstItem="Dfy-ie-giT" firstAttribute="leading" secondItem="len-0x-cht" secondAttribute="leading" id="u6T-kx-la7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="Dfy-ie-giT" id="jEw-OK-tUn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tU3-1Q-JQE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -654,6 +680,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EtL-S0-DZd"/>
+                    <connections>
+                        <outlet property="activity" destination="539-hT-9FS" id="xgn-WY-pEY"/>
+                        <outlet property="shawneeInfoWebView" destination="jCS-qO-cY1" id="Woh-1Q-5Ma"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNM-DX-pYT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -697,6 +727,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WAr-Yo-B79"/>
+                    <connections>
+                        <outlet property="activity" destination="wJw-Di-meL" id="L3W-qO-6eZ"/>
+                        <outlet property="olatheInfoWebView" destination="RLn-ng-ved" id="K1G-fW-4ga"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0O1-qg-sBW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -740,6 +774,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YU0-et-dfJ"/>
+                    <connections>
+                        <outlet property="activity" destination="NKD-fL-hQx" id="V8z-we-BHW"/>
+                        <outlet property="leawoodInfoWebView" destination="0EL-rb-ZOx" id="Cl5-sA-iS5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Se-yN-ocN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -783,6 +821,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KNN-Th-oht"/>
+                    <connections>
+                        <outlet property="activity" destination="IUh-gO-tOF" id="SJU-uZ-JPc"/>
+                        <outlet property="brooksideInfoWebView" destination="WK4-nB-2UX" id="bJW-Xf-Iey"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S9n-xv-Jrd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -826,6 +868,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="chI-yR-me3"/>
+                    <connections>
+                        <outlet property="activity" destination="Y7A-Uy-O6c" id="Zma-jy-Pi1"/>
+                        <outlet property="downtownInfoWebView" destination="eu1-wy-X5l" id="mZg-yD-34b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yYC-MP-uVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -888,6 +934,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="activity" destination="7Rw-pD-2HT" id="S0v-RD-oM4"/>
+                        <outlet property="openHereWebView" destination="0HQ-IS-yXI" id="K7l-KG-CBE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzn-5C-iPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

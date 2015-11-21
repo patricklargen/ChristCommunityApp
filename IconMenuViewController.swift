@@ -14,6 +14,9 @@ class IconMenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func givingButtonPressed(sender: UIButton) {
         
         UIApplication.sharedApplication().openURL(NSURL(string: "https://pushpay.com/pay/christcommunitykc")!)
     }
