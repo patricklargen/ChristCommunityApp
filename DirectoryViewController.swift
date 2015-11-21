@@ -1,19 +1,10 @@
-//
-//  LeawoodDirectoryViewController.swift
-//  ChristCommunity0731
-//
-//  Created by Patrick Largen on 8/31/15.
-//  Copyright © 2015 Patrick Largen. All rights reserved.
-//
 
 import UIKit
 
-import WebKit
-
 class DirectoryViewController: UIViewController {
 
-    @IBOutlet weak var Activity: UIActivityIndicatorView!
-    @IBOutlet weak var LeawoodDirectory: UIWebView!
+    @IBOutlet weak var activity: UIActivityIndicatorView!
+    @IBOutlet weak var directory: UIWebView!
     
 
     
@@ -22,26 +13,18 @@ class DirectoryViewController: UIViewController {
         
         let URL = NSURL(string: "https://ccefc.ccbchurch.com/mobile_ind_search.php")
         
-        LeawoodDirectory.loadRequest(NSURLRequest(URL: URL!))
-
-        // Do any additional setup after loading the view.
+        directory.loadRequest(NSURLRequest(URL: URL!))
     }
 
     func webViewDidStartLoad(_ : UIWebView) {
-        Activity.startAnimating()
+        activity.startAnimating()
         
         NSLog("The WebView is starting to load")
     }
     
     func webViewDidFinishLoad(_ : UIWebView) {
-        Activity.stopAnimating()
+        activity.stopAnimating()
         
         NSLog("The WebView is done loading")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
